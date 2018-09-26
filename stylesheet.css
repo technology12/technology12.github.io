@@ -1,0 +1,138 @@
+.top-wrapper{
+  background-image:url(IMG_5083.jpg);
+  height:600px;
+  background-size: cover;
+}
+
+.title{
+  border-bottom: 2px solid green;
+  font-size: 25px;
+  padding-top:40px;
+}
+.message h1{
+  font-size: 70px;
+  color:white;
+  padding-top:200px;
+  padding-bottom: 20px;
+  letter-spacing: 2px;
+  text-shadow: 2px 3px black;
+
+}
+.message p{
+  font-size:20px;
+  color:white;
+  text-shadow: 1px 2px black;
+}
+
+.main-wrapper{
+  padding-bottom: 40px;
+}
+
+.attention{
+  font-size: 7px;
+  color:rgba(105,127,157,1.0)
+}
+
+.dougu-show{
+  width:25%;
+  margin-top: 45px;
+
+  /*background-color: red;*/
+}
+
+.dougus{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dougu-icon{
+  position: relative;
+  width: 75%;
+  transition:all 0.2s;
+  border-radius: 80px;
+  margin: auto;
+  height: 200px;
+  background-color: rgba(211, 211, 211, 0.3)
+}
+.dougu-icon span{
+  display: none;
+}
+
+.dougu-icon:hover{
+  background-color: rgba(102, 255, 102, 0.6)
+}
+
+.dougu-show p{
+  text-align: center;
+  padding:0px 40px;
+  padding-top: 20px;
+  /*background-color: blue;*/
+}
+.dougu-icon h6{
+  position: absolute;
+  bottom: 0px;
+  right: 10px;
+  color:black;
+  font-size:20px;
+  background-color: white;
+  z-index: 3;
+}
+
+.news-img{
+  width: 180px;
+  height: 120px;
+  padding-right: 15px;
+}
+
+
+.news{
+  height:180px;
+  margin-top: 20px;
+  display: flex;
+}
+
+.news-sentence{
+  width:100%;
+  height:120px;
+}
+
+.news-sentence p{
+  margin:0;
+  padding-top: 5px;
+  padding-right: 20px;
+}
+
+
+.news-wrapper{
+margin-right: 100px;
+margin-left: 100px;
+background-color: rgba(204, 255, 255, 0.6);
+}
+
+.more-news{
+  width:200px;
+  height:80px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.btn{
+  text-align: center;
+  display:block;
+  width:100%;
+  line-height: 100%;
+  background-color:rgba(255, 102, 0, 1.0);
+  padding:10px 0px;
+  box-shadow: 2px 5px rgba(153, 51, 0, 0.8);
+  color:white;
+  transition: all 0.2s;
+}
+.btn:hover{
+  background-color: rgba(255, 150, 30, 1.0);
+}
+.btn:active{
+  box-shadow: none;
+  position: relative;
+  top:5px;
+}

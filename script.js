@@ -70,7 +70,7 @@ $(function() {
     $("#aburatubo").click(function(){
       $("#aburatubo-e").fadeIn();
     });
-    $("#kiduti-e").click(function(){
+    $("#aburatubo-e").click(function(){
       $(this).fadeOut();
     });
 

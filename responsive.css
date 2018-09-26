@@ -1,0 +1,165 @@
+@media(max-width:1024px){
+  .dougu-show{
+    width:33.33%;
+  }
+  .news-wrapper{
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+  .container{
+    padding:0 50px;
+}
+
+
+/*アイコン表示を二つにする*/
+@media(max-width:823px){
+  .dougu-show{
+    width:50%;
+  }
+
+  .title{
+    font-size: 20px;
+    padding-top:30px;
+  }
+  .message h1{
+    padding-top: 150px;
+  }
+  .message p{
+    font-size:20px;
+  }
+  .news-wrapper{
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  #kiduti-e{
+    display: none;
+  }
+  #nomi-e{
+    display: none;
+  }
+  #kanna-e{
+    display: none;
+  }
+  #sukoya-e{
+    display: none;
+  }
+  #aburatubo-e{
+    display: none;
+  }
+  #ryoubanokogiri-e{
+    display: none;
+  }
+  #gennou-e{
+    display: none;
+  }
+  #sujikebiki-e{
+    display: none;
+  }
+  .dougu-icon span{
+    display: block;
+    display:inline;
+  }
+}
+
+@media(max-width:738px){
+  .news{
+    height: 125px;
+  }
+  .news-sentence p{
+    display: none;
+  }
+}
+
+
+/*スマホ用*/
+@media(max-width:425px) {
+  .dougu-show{
+    width:100%;
+  }
+  .container{
+    padding:0 20px;
+  }
+  .title{
+    border-bottom: 1px solid green;
+    font-size: 14px;
+    padding-top:20px;
+  }
+  .attention{
+    font-size: 4px;
+  }
+  .message h1{
+    font-size: 50px;
+    padding-top:100px;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px black;
+  }
+  .message p{
+    font-size:17px;
+    text-shadow: 1px 1px black;
+    padding-top: 30px;
+  }
+  .logo{
+    width:160px
+  }
+  .news-wrapper{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .news-sentence p{
+    display: none;
+  }
+  .news{
+    height:125px;
+  }
+
+  #kiduti-e{
+    display: none;
+  }
+  #nomi-e{
+    display: none;
+  }
+  #kanna-e{
+    display: none;
+  }
+  #sukoya-e{
+    display: none;
+  }
+  #aburatubo-e{
+    display: none;
+  }
+  #ryoubanokogiri-e{
+    display: none;
+  }
+  #gennou-e{
+    display: none;
+  }
+  #sujikebiki-e{
+    display: none;
+  }
+
+
+  .img{
+    height: 300px;
+    margin-left: 8%;
+    margin-right: 6%;
+  }
+  .wrapper{
+    margin-top: 15px;
+    padding-bottom: 10px;
+  }
+  .box-name h1{
+    font-size: 30px;
+    padding-top: 48px;
+  }
+
+  .box-name h3{
+    font-size: 17.25px;
+  }
+  .links{
+    width:160px;
+    margin: auto;
+    padding-top:10px;
+    margin-bottom: 30px;
+  }
+}
